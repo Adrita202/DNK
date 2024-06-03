@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Office Export Centre | DNK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "../resources/logo_transparent.png" type = "image/x-icon">
+    <style>
+        .abouts{
+            background:linear-gradient(rgba(255, 0, 0, 0.694),rgb(230, 165, 12));
+            padding: 10% 20% 20% 20%;
+        }
+        li{
+            text-align: left;
+        }
+        .imag:hover{
+            width: 35%;
+            transition: 3s;
+            height: 35%;
+        }
+        .imag{
+            border-radius: 40px;
+        }
+    </style>
+    <link rel="stylesheet" href="style_prd.css"></link
+    >
+</head>
+<body> 
+    
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement(
+                {pageLanguage: 'en'},
+                'google_translate_element'
+            );
+        }
+    </script>
+ 
+    <script type="text/javascript"
+            src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+    </script>
+    <header class="banner" style="text-align: center;">
+      <br>
+        <h1 style="text-shadow: 4px;">Dak Ghar Niryat Kendra</h1>
+        <br>
+        <h1>Ministry of Post</h1>
+        <br>
+        <h2>Government of India</h2>
+    </header>
+    <header class="header-with-images">
+      <!-- Add your images here -->
+      <img src="../login/logo2-removebg-preview.png" alt="Image 2" id="img23" style="float: left; width:16em; position: relative; top:-13em;">
+      
+      <img src="../resources/amrit-mahotsav.jpg" alt="Image 1" style="position: relative; top: -15em; left:47em;;">
+  </header>
+  
+    <nav style="font-style: italic;" style="background-color: #000;">
+        <!-- <a href="../about-us/PAGE_ABOUT.html">Print Invoice</a>  -->
+        <a href="../billing/billing.html">Print Invoice</a> 
+        <a href="../search/product.html">Search</a> 
+        <a href="../shop/prd.html" target="_blank">Shop</a> 
+        <a href="../place-delivery/placeorder.html" style="text-align: right;">Request Your Delivery</a>
+        <a href="../order-tracking/order track_real.html">Track Your Order</a>
+        <a href="../about-us/PAGE_ABOUT.html">About us</a>
+        <a href="../login/login.html" method="post">Login/Sign Up</a>
+    </nav> 
+       
+     
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <div>
+            <img src="../resources/header_image (2).jpg" id="myImage" >
+          </div>
+          <div class="text"></div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <div>
+            <img src="../resources/block printing from jaipur.jpg" id="myImage">
+          </div>
+          <div class="text"></div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+        <div>
+          <img src="../resources/clay art from nadia.jpg" id="myImage" >
+        </div>
+          <div class="text"></div>
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br>
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span> 
+        <span class="dot" onclick="currentSlide(3)"></span> 
+      </div>
+      
+     <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
+     </script>
+
+      
+    
+    <main>
+        <section class="box">
+            <h1><b>Products</b></h1>
+            <a href="../shop/prd.html"><img src="../resources/jute_handcraft_narayanganj.jpg" width="25%" class="imag"></a>
+            <a href="../shop/prd.html"><img src="../resources/terracotta_Paschim Medinipur.jpeg" width="25%" class="imag"></a>
+            <a href="../shop/prd.html"><img src="../resources/phulkari_art.jpg" width="25%" class="imag"></a>
+            <a href="../shop/prd.html"><img src="../resources/dokra_art_birbhum.webp" width="25%" class="imag"></a>
+            <a href="../shop/prd.html"><img src="../resources/madhubani_mithila_painting.jpg" width="25%" class="imag"></a>
+
+        </section>
+        <br>
+        <section class="abouts" style="text-align: center;">
+            <h2>What is Dak Ghar Niryat Kendra</h2>
+            <p style="font-size: 20px; font-weight: bold;">Dhak Ghar Niryat Kendra is a postal export center (PEN) operated by the Indian Postal Department. It is a one-stop shop for businesses that want to export their products to foreign countries. PENs offer a variety of services, including:</p>
+            <ul style="font-size: 20px;font-family: 'Times New Roman', Times, serif;">
+                <li>Comprehensive export documentation and processing: PENs help businesses with the necessary export documentation, such as shipping labels, customs forms, and certificates of origin.</li>
+                <li>Consolidated shipping: PENs can consolidate multiple shipments from different businesses into a single shipment, which can save businesses money.</li>
+                <li>International tracking: PENs provide businesses with international tracking information so they can track the progress of their shipments.</li>
+            </ul>
+        </section>
+        </center>
+    </main>
+    <footer style="background-color: rgb(253, 97, 0)">
+        <p class="aboutcreator" style="color:rgb(0, 0, 0); text-align: center;">&copy;Dak Ghar Niryat Kendra</p>
+        
+  <div id="google_translate_element"></div>
+    </footer>
+</body>
+
+</html>

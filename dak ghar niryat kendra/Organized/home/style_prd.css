@@ -1,0 +1,252 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+.container{
+    background:linear-gradient(RED,BLACK);
+    padding:15px 9%;
+    padding-bottom: 100px;
+}
+
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+    font-size: 50px;
+}
+
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+}
+
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
+    background: #fff;
+    text-align: center;
+    padding:30px 20px;
+}
+
+.container .box-container .box img{
+    height: 80px;
+}
+
+.container .box-container .box h3{
+    color:#444;
+    font-size: 22px;
+    padding:10px 0;
+}
+
+.container .box-container .box p{
+    color:#777;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.container .box-container .box .btn{
+    margin-top: 10px;
+    display: inline-block;
+    background:#333;
+    color:#fff;
+    font-size: 17px;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container .box-container .box .btn:hover{
+    letter-spacing: 1px;
+}
+
+.container .box-container .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(1.03);
+}
+
+@media (max-width:768px){
+    .container{
+        padding:20px;
+    }
+}
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+
+.prev,
+.next {
+    position: absolute;
+    top: 12.5em;
+    transform: translateY(-50%);
+    height: 3em;
+    padding: 16px;
+    color: rgb(31, 2, 2);
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    z-index: 3;
+}
+
+.prev {
+    left: 10px;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: -10px;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(12, 4, 4, 1);
+    color: #fff;
+    z-index: 3;
+}
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.slideshow-container {
+    position: relative;
+    right: 10px;
+    top:-21em;
+    height: 3em;
+    padding-bottom: 0%;
+    align-items: center;
+    justify-content: center; */
+    margin-bottom: 0px;
+  }
+  
+  /* Individual slides */
+  .mySlides {
+    display: flex;
+  }
+  
+  /* Image styling */
+  #myImage {
+    width: 1500px;
+    height: 400px;
+    position:relative;
+    align-items: center;
+    justify-content: center; */
+    margin-bottom: 0px;
+
+
+    /*center*/
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* right: 300px; */
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+  /* Style for the navigation menu */
+nav {
+    background-color: #0e020279;
+    color: #000;
+    /* overflow: hidden; */
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    top:-17.5em;
+    padding-bottom: 0%;
+}
+
+/* Style for the navigation menu links */
+nav a {
+
+    float: left;
+    background-color: #000;
+    display: block;
+    color: rgb(211, 178, 178);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+
+/* Style for the "Request Your Delivery" link */
+nav a[style="text-align: right;"] {
+    float: right;
+    background-color: #000;
+}
+
+/* Clear floats after the "Request Your Delivery" link */
+nav::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Add this to your existing <style> section or in an external CSS file */
+/* .header-with-images {
+  text-align: right; /* Center-align the header content */
+  /* top: -12em;
+  position: relative;  *//* Create a positioning context for the images */
+}
+ */
+/* .header-with-images img {
+  float: right; /* Float the images to the right */
+  /* float:inherit;
+  margin-left: 10px; */ /* Add some spacing between the images */
+
+} */
